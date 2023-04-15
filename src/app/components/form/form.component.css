@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: var(--bs-body-color);
+}
+
+
+.container {
+    max-width: 1320px;
+    width: 90%;
+    margin: 10px auto;
+
+}
+
+.width {
+    width: 100%;
+}
+
+.formulario-box {
+    background-color: #fff;
+    border: 1px solid #17ca74;
+    border-radius: 15px;
+    padding: 35px;
+    position: relative;
+}
+
+.formulario-title {
+    color: #184d9d;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.section-text {
+    color: #666666;
+    line-height: 25px;
+    font-size: 15px; 
+}
+
+.form-fields {
+    align-items: first baseline;
+    display: flex !important;
+    justify-content: space-between;
+    width: 100%;
+    }
+
+.form-fields > *:not(:first-child) {
+    margin-left: 1em;
+}
+
+
+.form-input {
+    border: 1px solid #17ca74;
+    border-radius: 15px;
+    font-size: 16px;
+    height: 52px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    width: 50%;
+}
+
+button:not(:disabled), [type='button']:not(:disabled), [type='reset']:not(:disabled), [type='submit']:not(:disabled) {
+    cursor: pointer;
+}
+
+.form-submit {
+    font-size: 16px;
+    margin: 0;
+    max-width: 100%;
+    padding: 14px 10px;
+    width: 40%;
+}
+
+.btn-whatsapp {
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #17ca74;
+    border-radius: 15px;
+    box-shadow: 0px 4px 0px 1px #099e57;
+    color: #fff;
+    display: flex;
+    font-weight: 700;
+    line-height: 1;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 14px 10px;
+    position: relative;
+}
+
+.btn {
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
